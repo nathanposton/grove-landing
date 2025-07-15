@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Grove Dev Team</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <style>
+   :root {
+     --primary:#5FAF7F;  /* gentle leaf green */
+     --secondary:#FFCF9C;/* soft peach */
+     --accent:#AEC6CF;   /* sky blue */
+     --bg:#F9FBFD;       /* near‑white */
+     --text:#2E3A44;     /* graphite */
+   }
+   *{box-sizing:border-box;margin:0;padding:0;}
+   body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+   header{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:4rem 1rem 3rem;}
+   header h1{font-size:3rem;color:var(--primary);margin-bottom:1rem;}
+   header p{max-width:700px;font-size:1.25rem;}
+   header img{width:200px;margin-top:2rem;}
+   section{padding:3rem 1rem;max-width:1000px;margin:0 auto;}
+   h2{font-size:2rem;color:var(--primary);text-align:center;}
+   .features,.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;}
+   .card{background:#fff;padding:1.5rem;border-radius:16px;box-shadow:0 4px 10px rgba(0,0,0,0.05);transition:transform .2s;}
+   .card:hover{transform:translateY(-4px);}
+   .btn{display:inline-block;margin-top:1.5rem;background:var(--primary);color:#fff;padding:.75rem 1.5rem;border-radius:999px;text-decoration:none;font-weight:600;}
+   footer{text-align:center;padding:2rem 1rem;font-size:.875rem;color:#666;}
+   a{color:var(--primary);}
+   ul{list-style:disc;padding-left:1.5rem;}
+   @media (prefers-color-scheme: dark){
+     body{background:#1F2428;color:#ECEFF1;}
+     .card{background:#263238;}
+     footer{color:#CCC;}
+   }
+  </style>
+</head>
+<body>
+  <!-- Hero -->
+  <header>
+    <img src="images/logo.svg" alt="Grove Logo">
+    <h1>Grow With Grove</h1>
+    <p>An adventure, creature–care game where bravery and love shelter a growing community from the potential dangers of a beautiful world. We're forming an team to finish the dream—come play your part.</p>
+    <a href="#roles" class="btn">See Open Roles</a>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>What is Grove?</h2>
+    <p style="margin-top:1rem;">
+      Grove is a companion-driven casual action adventure. Forage, craft, protect, and celebrate amid an ever‑evolving landscape.</p>
+    <div class="features" style="margin-top:2rem;">
+      <div class="card"><h3>Creature Care</h3><p>Raise unique sprites whose abilities, personalities, and appearances evolve through your choices.</p></div>
+      <div class="card"><h3>Companion Adventure</h3><p>Acquire abilities for your companions, so they can brave the terrain and protect their home</p></div>
+      <div class="card"><h3>Thoughtful Exploration</h3><p>Discover serene biomes, solve environmental puzzles and gather resources to support your Grove.</p></div>
+      <div class="card"><h3>Community &amp; Celebration</h3><p>Host seasonal festivals, build bespoke structures and watch your sanctuary flourish.</p></div>
+    </div>
+  </section>
+
+  <!-- Vision -->
+  <section id="vision">
+    <h2>Our Vision</h2>
+    <p style="margin-top:1rem;">
+      We believe the most fun games are fulfilling ones. Grove celebrates the joy of discovery, overcoming obstacles, teamwork, and fostering friendships in communities. Together, we’ll craft lush worlds, expressive creatures and systems that reward curiosity, compassion, and persistence.</p>
+  </section>
+
+  <!-- Roles -->
+  <section id="roles">
+    <h2>Join the Team</h2>
+    <p style="margin-top:1rem;">We’re looking for passionate collaborators ready to co‑create in a healthy, fail‑friendly environment. Equity shares and future revenue‑sharing are on the table for long‑term contributors.</p>
+    <div class="roles" style="margin-top:2rem;">
+      <div class="card"><h3>3D Environment Artist</h3><p>Create stylised foliage, terrain props and cozy world assets.</p></div>
+      <div class="card"><h3>Creature Animator</h3><p>Bring our sprites to life with charming idle loops and expressive interactions.</p></div>
+      <div class="card"><h3>Gameplay Programmer</h3><p>Implement nurturing, AI behaviours and exploration systems in Unreal Engine 5.</p></div>
+      <div class="card"><h3>UI/UX Designer</h3><p>Design intuitive, minimal interfaces that communicate depth with delight.</p></div>
+      <div class="card"><h3>Audio Magician</h3><p>Compose ambient soundscapes and playful creature SFX that make the world sing.</p></div>
+      <div class="card"><h3>Community Manager</h3><p>Help us chronicle development, run dev logs and cultivate our budding fanbase.</p></div>
+    </div>
+    <a href="https://discord.gg/your-invite" class="btn">Apply on Discord</a>
+  </section>
+
+  <!-- Process -->
+  <section id="process">
+    <h2>How We Work</h2>
+    <ul style="margin-top:1rem;">
+      <li>Remote‑first, async‑friendly workflow (Discord + GitHub).</li>
+      <li>Transparent milestone planning with Linear.</li>
+      <li>Shared creative ownership—every voice matters.</li>
+      <li>Revenue share and attribution for shipped contributions.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Grove Team &nbsp;|&nbsp; Built with ❤️. Ours and yours.<br>
+    <a href="mailto:join@grovestudio.dev">join@grovestudio.dev</a> · <a href="https://github.com/your-repo">GitHub</a></p>
+  </footer>
+</body>
+</html>
